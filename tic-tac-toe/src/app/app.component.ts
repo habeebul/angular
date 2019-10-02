@@ -8,6 +8,8 @@ import { Component } from "@angular/core";
 export class AppComponent {
   title = "tic-tac-toe";
   squares = ["", "", "", "", "", "", "", "", ""];
+  looping = ["", "", ""];
+  ind = 0;
   xIsNext = true;
   status = "Next player: X";
   clickHandler(i) {
